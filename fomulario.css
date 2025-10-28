@@ -49,14 +49,24 @@ label{/*Texto antes dos campos*/
     margin-left: 15% auto; /*Centralização do formulario*/
 }
 
-.button {
+.button.enviar:hover {
+    background-color: #4CAF50;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
     margin-right: 10px;
+    opacity: 0.9;
 }
-.button.submit { background-color: #4CAF50; }
-.button.clear { background-color: #f44336; }
-.button:hover { opacity: 0.9; }
+
+.button.limpar:hover{ 
+    background-color: #f44336;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+    opacity: 0.9;
+}
