@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html  lang="PT-BR">
-  <link rel="stylesheet" href="fomulario.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="styles.css" type="text/css" media="screen">
 <head>
-<meta>charset="UTF-8"/>
+<meta charset="UTF-8"/>
 <title>Formulario</title>
 <!--Atividade do Eixo Temático 1- Tema 2 HTML+CSS da Unicarioca-->
 <!--Activitie of Class HTML+CSS of Unicarioca University-->
@@ -27,7 +27,7 @@
     <input type="text" id="Cidade" name="Cidade" placeholder="Cidade onde reside" required><br><br>
   </form> 
 
-<label for="Estado">Estado de residencia:</label> <!--Seleção/Select-->
+<label for="Estado">Estado de residencia:</label><br> <!--Seleção/Select-->
 <select id="Estado" name="Estado">
     <option value="Rio de Janeiro">Rio de Janeiro</option>
     <option value="São Paulo">São Paulo</option>
@@ -55,6 +55,8 @@
 </select>
 </form>
 
+<br>
+
 <form action="/action_page.php"> <!--Seleção/Select-->
     <label for="Sexo">Sexo:</label>
     <select id="Sexo" name="Escolha seu sexo">
@@ -63,6 +65,7 @@
     </select>
   </form>
 </h3>
+
 <h3>
 <p>Bens pessoais:</p> <!--Checkbox-->
   <form>
@@ -77,9 +80,17 @@
 
 <h3>
 <p>Experiências anteriores:</p>
-<input type="text" id="Experiências anteriores" name="Experiências anteriores" placeholder="Experiências anteriores"><br><br>
-<button  type="Enviar" onclick="alert('Enviar')">Enviar</button>
-<button  type="Limpar" onclick="alert('Limpar')">Limpar</button>
+<form <input type="text" id="Experiencias" name="Experiências anteriores" placeholder="Experiências anteriores">
+<label for="Experiências anteriores"></label>
+<textarea placeholder="Experiências anteriores">
+  
+  </textarea> 
+  </form>
+  <br>
+  <br>
+  
+<button  type="submit" onclick="alert('Enviar')" id="enviar">Enviar</button>
+<button  type="clear" onclick="alert('Limpar')" id="limpar">Limpar</button>
 </h3>
 
 </body>
